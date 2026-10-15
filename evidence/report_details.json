@@ -1,0 +1,84 @@
+{
+  "student": {
+    "student_id": "2A202602457",
+    "split_seed": 9903,
+    "model_seed": 4124,
+    "v_ego": 12.0
+  },
+  "seeds": 5,
+  "train_trajectories": 6727,
+  "test_trajectories": 2883,
+  "environment": {
+    "python": "3.13.1",
+    "numpy": "2.4.2",
+    "pandas": "3.0.0",
+    "matplotlib": "3.10.8",
+    "blas_threads": 1
+  },
+  "replay_case": {
+    "segment": 65,
+    "changed_frames": [
+      75,
+      76,
+      77
+    ],
+    "first_changed_frames": [
+      {
+        "frame": 75,
+        "gap_m": 4.9981,
+        "closing_m_s": 3.3883,
+        "ttc_s": 1.4751055101378272,
+        "golden_accel_m_s2": -4.384531531062755,
+        "aeb_accel_m_s2": -6.0
+      },
+      {
+        "frame": 76,
+        "gap_m": 4.6866,
+        "closing_m_s": 3.2052,
+        "ttc_s": 1.4621864470235868,
+        "golden_accel_m_s2": -4.363352099756803,
+        "aeb_accel_m_s2": -6.0
+      },
+      {
+        "frame": 77,
+        "gap_m": 4.3966,
+        "closing_m_s": 3.0624000000000002,
+        "ttc_s": 1.435671368861024,
+        "golden_accel_m_s2": -4.350441035055776,
+        "aeb_accel_m_s2": -6.0
+      }
+    ]
+  },
+  "PercMLP+_openloop_per_seed": [
+    {
+      "seed": 4124,
+      "all": 0.80766361951828,
+      "brake_slice": 0.9801387786865234,
+      "slice_share": 0.043704402341257734
+    },
+    {
+      "seed": 4125,
+      "all": 0.820527195930481,
+      "brake_slice": 0.9979477524757385,
+      "slice_share": 0.043704402341257734
+    },
+    {
+      "seed": 4126,
+      "all": 0.7945137023925781,
+      "brake_slice": 1.0296604633331299,
+      "slice_share": 0.043704402341257734
+    },
+    {
+      "seed": 4127,
+      "all": 0.8172653913497925,
+      "brake_slice": 0.9639089703559875,
+      "slice_share": 0.043704402341257734
+    },
+    {
+      "seed": 4128,
+      "all": 0.8064754605293274,
+      "brake_slice": 0.9831180572509766,
+      "slice_share": 0.043704402341257734
+    }
+  ]
+}
